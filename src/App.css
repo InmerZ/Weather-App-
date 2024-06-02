@@ -1,0 +1,85 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  padding: 10px;
+  margin: 20px 0 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 80%;
+  max-width: 400px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.toggle-button {
+  margin-top: 10px;
+}
+
+.getWeather {
+  width: 10rem;
+  height: 2.6rem;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-top: 28px;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+figure {
+  margin: 0;
+}
+
+figure img {
+  display: block;
+  margin: 0 auto;
+  width: 100px; 
+  height: 100px; 
+}
+
+section {
+  display: inline-block;
+  text-align: left;
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  margin: 5px 0;
+  font-size: 1.1em;
+}
